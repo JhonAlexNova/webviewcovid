@@ -13,6 +13,7 @@
 		89A0A5AB24B26C5C00D49A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A0A5A924B26C5C00D49A40 /* Main.storyboard */; };
 		89A0A5AD24B26C6000D49A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A0A5AC24B26C6000D49A40 /* Assets.xcassets */; };
 		89A0A5B024B26C6000D49A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A0A5AE24B26C6000D49A40 /* LaunchScreen.storyboard */; };
+		89A0A5B924B28E1600D49A40 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A0A5B824B28E1600D49A40 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		89A0A5AC24B26C6000D49A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89A0A5AF24B26C6000D49A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89A0A5B124B26C6000D49A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A0A5B824B28E1600D49A40 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A0A5B924B28E1600D49A40 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				89A0A5A224B26C5C00D49A40 /* ios-webcorpovirus */,
 				89A0A5A124B26C5C00D49A40 /* Products */,
+				89A0A5B724B28E1500D49A40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				89A0A5B124B26C6000D49A40 /* Info.plist */,
 			);
 			path = "ios-webcorpovirus";
+			sourceTree = "<group>";
+		};
+		89A0A5B724B28E1500D49A40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89A0A5B824B28E1600D49A40 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
